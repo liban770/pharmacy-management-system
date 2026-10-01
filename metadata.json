@@ -1,0 +1,6 @@
+{
+  "name": "PharmOS Enterprise Pharmacy System",
+  "description": "Production-oriented Pharmacy Operations System with FEFO batch & expiry tracking, POS, prescription dispensing, inventory movements, and multi-role RBAC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

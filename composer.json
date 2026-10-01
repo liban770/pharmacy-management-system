@@ -1,0 +1,36 @@
+{
+    "name": "pharmos/pharmacy-management-system",
+    "description": "Enterprise-grade Pharmacy Operations System with FEFO batching, POS, Prescriptions, and Multi-role RBAC",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "PharmOS Architecture Team",
+            "email": "dev@pharmos.health"
+        }
+    ],
+    "require": {
+        "php": ">=8.1.0",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PharmOS\\": "app/",
+            "PharmOS\\Config\\": "config/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
